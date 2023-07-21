@@ -4,6 +4,11 @@ import java.util.List;
 
 public class Main {
 
+    private static void printInitialList(List<String> list) {
+        System.out.println("Initial list:");
+        print(list);
+    }
+
     private static void print(List<String> list) {
         int counter = 1;
         for (String name : list) {
