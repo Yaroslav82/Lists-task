@@ -20,7 +20,7 @@ public class Main {
 
     private static void printEditedList(LinkedList<String> list) {
         System.out.println("Edited list:");
-        addProducts(list, "plum", "mango");
+        addProducts(list);
         print(list);
     }
 
@@ -33,9 +33,9 @@ public class Main {
         System.out.println();
     }
 
-    private static void addProducts(LinkedList<String> list, String firstProduct, String lastProduct) {
-        list.addFirst(firstProduct);
-        list.addLast(lastProduct);
+    private static void addProducts(LinkedList<String> list) {
+        list.addFirst("plum");
+        list.addLast("mango");
     }
 
     private static LinkedList<String> getData() {
