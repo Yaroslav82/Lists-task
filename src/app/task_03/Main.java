@@ -5,6 +5,14 @@ import java.util.List;
 
 public class Main {
 
+    public static void main(String[] args) {
+        LinkedList<String> list = getData();
+
+        printInitialList(list);
+
+        printEditedList(list);
+    }
+
     private static void printInitialList(LinkedList<String> list) {
         System.out.println("Initial list:");
         print(list);
