@@ -1,5 +1,7 @@
 package app.task_01;
 
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class Main {
@@ -17,7 +19,7 @@ public class Main {
         }
     }
 
-    private static List<String> getData() {
-        return List.of("John", "Alice", "Robert", "Lisa", "David", "Amanda");
+    private static ArrayList<String> getData() {
+        return new ArrayList<>(List.of("John", "Alice", "Robert", "Lisa", "David", "Amanda"));
     }
 }
