@@ -11,6 +11,12 @@ public class Main {
         print(list);
     }
 
+    private static void printSortedList(List<String> list) {
+        Collections.sort(list);
+        System.out.println("Sorted list:");
+        print(list);
+    }
+
     private static void print(List<String> list) {
         int counter = 1;
         for (String name : list) {
