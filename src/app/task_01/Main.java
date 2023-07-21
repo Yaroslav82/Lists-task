@@ -6,6 +6,14 @@ import java.util.List;
 
 public class Main {
 
+    public static void main(String[] args) {
+        List<String> list = getData();
+
+        printInitialList(list);
+
+        printSortedList(list);
+    }
+
     private static void printInitialList(List<String> list) {
         System.out.println("Initial list:");
         print(list);
