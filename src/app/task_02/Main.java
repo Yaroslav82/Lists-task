@@ -1,10 +1,17 @@
 package app.task_02;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 
 public class Main {
+
+    public static void main(String[] args) {
+        List<String> list = getData();
+
+        printInitialList(list);
+
+        printCuttedList(list);
+    }
 
     private static void printInitialList(List<String> list) {
         System.out.println("Initial list:");
