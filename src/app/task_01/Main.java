@@ -31,6 +31,7 @@ public class Main {
             System.out.println(counter + ") " + name);
             counter++;
         }
+        System.out.println();
     }
 
     private static ArrayList<String> getData() {
